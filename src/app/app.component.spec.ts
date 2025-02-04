@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'amalgroup' title`, () => {
+  it(`should have the 'AMAL-GROUP' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('amalgroup');
+    expect(app.title).toEqual('AMAL-GROUP');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, amalgroup');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, AMAL-GROUP');
   });
 });
