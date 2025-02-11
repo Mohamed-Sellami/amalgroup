@@ -1,0 +1,8 @@
+.container {
+  max-width: 1200px;
+}
+
+iframe {
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}

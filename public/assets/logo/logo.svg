@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #0e065c;
+        stroke-miterlimit: 10;
+        stroke-width: 15px;
+      }
+
+      .cls-2 {
+        font-size: 141.25px;
+        letter-spacing: .2em;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: MontserratRoman-ExtraBold, Montserrat;
+        font-variation-settings: 'wght' 800;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #0e065c;
+      }
+
+      .cls-3 {
+        font-size: 141.24px;
+      }
+
+      .cls-4 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-1" cx="959.77" cy="547.25" rx="891.75" ry="366.84"/>
+  <g>
+    <g>
+      <polygon class="cls-4" points="912.17 324.65 912.17 662.22 364.31 662.22 364.31 448.77 670.26 448.77 670.26 532.57 474.2 532.57 474.2 581.58 802.28 581.58 802.28 404.5 364.31 404.5 364.31 324.65 912.17 324.65"/>
+      <polygon class="cls-4" points="1009.41 324.65 1009.41 662.22 1557.27 662.22 1557.27 448.77 1251.32 448.77 1251.32 532.57 1447.38 532.57 1447.38 581.58 1119.3 581.58 1119.3 404.5 1557.27 404.5 1557.27 324.65 1009.41 324.65"/>
+    </g>
+    <text class="cls-2" transform="translate(364.31 777.19) scale(1.04 1)"><tspan x="0" y="0">AMAL</tspan></text>
+    <text class="cls-3" transform="translate(1009.41 777.19)"><tspan x="0" y="0">GROUP</tspan></text>
+  </g>
+</svg>
