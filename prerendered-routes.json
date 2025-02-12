@@ -1,11 +1,11 @@
 {
   "routes": {
-    "/https:/mohamed-sellami.github.io/amalgroup": {},
-    "/https:/mohamed-sellami.github.io/amalgroup/about": {},
-    "/https:/mohamed-sellami.github.io/amalgroup/clients": {},
-    "/https:/mohamed-sellami.github.io/amalgroup/contact": {},
-    "/https:/mohamed-sellami.github.io/amalgroup/products": {},
-    "/https:/mohamed-sellami.github.io/amalgroup/projects": {},
-    "/https:/mohamed-sellami.github.io/amalgroup/services": {}
+    "/amalgroup": {},
+    "/amalgroup/about": {},
+    "/amalgroup/clients": {},
+    "/amalgroup/contact": {},
+    "/amalgroup/products": {},
+    "/amalgroup/projects": {},
+    "/amalgroup/services": {}
   }
 }

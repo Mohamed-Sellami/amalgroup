@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://mohamed-sellami.github.io/amalgroup',
+  basePath: '/amalgroup',
   supportedLocales: {
   "en-US": ""
 },

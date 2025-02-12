@@ -2,53 +2,53 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: false,
-  baseHref: 'https://mohamed-sellami.github.io/amalgroup/',
+  baseHref: '/amalgroup/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/https:/mohamed-sellami.github.io/amalgroup"
+    "route": "/amalgroup"
   },
   {
     "renderMode": 2,
-    "route": "/https:/mohamed-sellami.github.io/amalgroup/about"
+    "route": "/amalgroup/about"
   },
   {
     "renderMode": 2,
-    "route": "/https:/mohamed-sellami.github.io/amalgroup/services"
+    "route": "/amalgroup/services"
   },
   {
     "renderMode": 2,
-    "route": "/https:/mohamed-sellami.github.io/amalgroup/products"
+    "route": "/amalgroup/products"
   },
   {
     "renderMode": 2,
-    "route": "/https:/mohamed-sellami.github.io/amalgroup/projects"
+    "route": "/amalgroup/projects"
   },
   {
     "renderMode": 2,
-    "route": "/https:/mohamed-sellami.github.io/amalgroup/contact"
+    "route": "/amalgroup/contact"
   },
   {
     "renderMode": 2,
-    "route": "/https:/mohamed-sellami.github.io/amalgroup/clients"
+    "route": "/amalgroup/clients"
   },
   {
     "renderMode": 2,
-    "redirectTo": "/https://mohamed-sellami.github.io/amalgroup",
-    "route": "/https:/mohamed-sellami.github.io/amalgroup/**"
+    "redirectTo": "/amalgroup",
+    "route": "/amalgroup/**"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 525, hash: '0c30f50d377ee1256963befaaa3d2535f40f84d230c95fde7da05fff847e0787', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1065, hash: '4d1ffc14e1ee38471bef11ccbfd01c4058c87a52cd2bf9e29783c4f40d0f6f5c', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'https:/mohamed-sellami.github.io/amalgroup/index.html': {size: 10657, hash: '78c35e82db8e54cfb7cfc377f4867447ddc75434ee037400d9cfd371b1988a51', text: () => import('./assets-chunks/https:_mohamed-sellami_github_io_amalgroup_index_html.mjs').then(m => m.default)},
-    'https:/mohamed-sellami.github.io/amalgroup/products/index.html': {size: 10657, hash: '78c35e82db8e54cfb7cfc377f4867447ddc75434ee037400d9cfd371b1988a51', text: () => import('./assets-chunks/https:_mohamed-sellami_github_io_amalgroup_products_index_html.mjs').then(m => m.default)},
-    'https:/mohamed-sellami.github.io/amalgroup/about/index.html': {size: 10657, hash: '78c35e82db8e54cfb7cfc377f4867447ddc75434ee037400d9cfd371b1988a51', text: () => import('./assets-chunks/https:_mohamed-sellami_github_io_amalgroup_about_index_html.mjs').then(m => m.default)},
-    'https:/mohamed-sellami.github.io/amalgroup/projects/index.html': {size: 10657, hash: '78c35e82db8e54cfb7cfc377f4867447ddc75434ee037400d9cfd371b1988a51', text: () => import('./assets-chunks/https:_mohamed-sellami_github_io_amalgroup_projects_index_html.mjs').then(m => m.default)},
-    'https:/mohamed-sellami.github.io/amalgroup/contact/index.html': {size: 10657, hash: '78c35e82db8e54cfb7cfc377f4867447ddc75434ee037400d9cfd371b1988a51', text: () => import('./assets-chunks/https:_mohamed-sellami_github_io_amalgroup_contact_index_html.mjs').then(m => m.default)},
-    'https:/mohamed-sellami.github.io/amalgroup/clients/index.html': {size: 10657, hash: '78c35e82db8e54cfb7cfc377f4867447ddc75434ee037400d9cfd371b1988a51', text: () => import('./assets-chunks/https:_mohamed-sellami_github_io_amalgroup_clients_index_html.mjs').then(m => m.default)},
-    'https:/mohamed-sellami.github.io/amalgroup/services/index.html': {size: 10657, hash: '78c35e82db8e54cfb7cfc377f4867447ddc75434ee037400d9cfd371b1988a51', text: () => import('./assets-chunks/https:_mohamed-sellami_github_io_amalgroup_services_index_html.mjs').then(m => m.default)}
+    'index.csr.html': {size: 492, hash: 'e62942e2af0e3ec7a24498ee459677d21ef3bd2804dfef6808c644791cbdb5b0', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1032, hash: 'abf818909bf5c3924993768416dfb40f6aa3134ab68d5e05f06a5ba74639afdb', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'about/index.html': {size: 6067, hash: '019a340f5ae68e71207fdb194bda4815644850324c68476321fba01e82da0790', text: () => import('./assets-chunks/about_index_html.mjs').then(m => m.default)},
+    'products/index.html': {size: 7936, hash: '96c9d90bbc1cc3862edc997559003fd62a8a439c523db38f104413de592df885', text: () => import('./assets-chunks/products_index_html.mjs').then(m => m.default)},
+    'projects/index.html': {size: 5829, hash: '692201eab12ab4ce6401b6793f2e910cca46bcf019146215a5447dfa17d48471', text: () => import('./assets-chunks/projects_index_html.mjs').then(m => m.default)},
+    'index.html': {size: 10261, hash: 'daed0da1023918c17ad39d9e973e5b50ca861f1402e6b12baba27175a97804b3', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'contact/index.html': {size: 10496, hash: 'e1a689ab5299b78480e69ed6a4c8d67590f62fb686e14809bced2a70c5806e47', text: () => import('./assets-chunks/contact_index_html.mjs').then(m => m.default)},
+    'clients/index.html': {size: 5824, hash: 'ae43b8dfa8941c570bd81ef77649e58a97f7db63e4d0e5385466188c3c7cdab2', text: () => import('./assets-chunks/clients_index_html.mjs').then(m => m.default)},
+    'services/index.html': {size: 5829, hash: '24bae9589f7374c86606faaa1b9881accd647f700e61b08e4e18c931d691d19c', text: () => import('./assets-chunks/services_index_html.mjs').then(m => m.default)}
   },
 };
